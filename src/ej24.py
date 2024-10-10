@@ -1,15 +1,10 @@
 def precio_producto():
-    precio = float(input("Introduce el precio del producto en € y con 2 decimales: "))
+    precio = str(input("Introduce el precio del producto en € y con 2 decimales: "))
     
-    # precio_dividido = precio.split(".")
-    # euro = precio_dividido[0]
-    # centimos = precio_dividido[1]
-
+    precio_dividido = precio.split(".")
+    euro = precio_dividido
     
-    
-    # print("El precio es " + euro + " euros" + " Y " + centimos + " centimos.")
-
-    print("El precio es de {:.d} y {:.2f}".format(precio))
+    print("El precio es de ", euro, "euros")
 
 def main():
     precio_producto()
