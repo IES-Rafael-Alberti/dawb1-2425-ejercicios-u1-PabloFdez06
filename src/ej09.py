@@ -1,3 +1,3 @@
-print(int(input("Dime el primer número: ")) + int(input("Dime el segundo número: ")) + int(input("Dime el tercer número: ")))
+print(float(input("Dime el primer número: ")) + float(input("Dime el segundo número: ")) + float(input("Dime el tercer número: ")))
 
 
