@@ -1,0 +1,1 @@
+print("El Resultado de la operación es: " + str(((3 + 2) / (2 * 5))**2))
