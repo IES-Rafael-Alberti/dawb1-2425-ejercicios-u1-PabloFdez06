@@ -10,7 +10,7 @@ def precio_iva(porcentaje, importe):
     iva = importe * porcentaje
     resultado = iva + importe
 
-    return print(f"El precio final del articulo con IVA es de: {resultado:.2f}")
+    return resultado
 
     
 
@@ -18,9 +18,15 @@ def precio_iva(porcentaje, importe):
 
 def main():
 
+    
     porcentaje = float(input(f"Indique el porcentaje de IVA a añadir: "))
     importe = float(input("Especifique el importe sin iVA: "))
     precio_iva(porcentaje, importe)
+
+    resultado = precio_iva(porcentaje, importe)
+    
+    print(f"El precio final del articulo con IVA es de: {resultado:.2f}")
+
 
 
 if __name__ == "__main__":

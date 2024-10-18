@@ -4,15 +4,19 @@
 
 # print("Importe total: " + total)
 
-def recibe_horasycoste():
-    horas = int(input("Horas de trabajo: "))
-    precio = int(input("Coste por hora: "))
+def recibe_horasycoste(horas, precio):
+
 
     return (horas * precio)
 
 
 def main():
-    importe = recibe_horasycoste()
+
+
+    # recibe_horasycoste(horas, precio)
+    horas = int(input("Horas de trabajo: "))
+    precio = int(input("Coste por hora: "))
+    importe = recibe_horasycoste(horas, precio)
     print(f"El importe total es: {importe}")
 
 
